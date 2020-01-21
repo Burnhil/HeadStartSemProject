@@ -1,0 +1,68 @@
+/* [SITE] */
+html, body, textarea, input{
+  font-family: arial;
+}
+
+/* [PERIOD SELECTOR] */
+#selector{
+  padding: 10px;
+}
+#selector select, #selector input[type=button]{
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+/* [CALENDAR] */
+#calendar{
+  width: 100%;
+  border-collapse: collapse;
+}
+#calendar tr td{
+  border: 1px solid #ccc;
+  padding: 20px 5px;
+  width: 14.28%;
+  vertical-align: top;
+}
+td.blank{
+  background: #eee;
+}
+tr.day td{
+  background: #ba3423;
+  color: #fff;
+  font-weight: bold;
+}
+.evt{
+  margin-top: 5px;
+  padding: 5px;
+  background: #fff2dd;
+  color: #555;
+  font-size: 0.75em;
+  max-height: 5em;
+  overflow: hidden;
+}
+
+/* [ADD/EDIT EVENT] */
+#event form{
+  margin-top: 10px;
+  padding: 10px;
+  background: #f2f2f2;
+}
+#event h1{
+  padding: 0;
+  margin: 0;
+}
+#evt-date{
+  margin: 10px 0;
+  font-weight: bold;
+}
+#event textarea{
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  min-width: 320px;
+  resize: none;
+}
+#event input[type=button], #event input[type=submit]{
+  padding: 10px;
+  font-size: 1.05em;
+}
